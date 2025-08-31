@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Export Discogs Bookmarks to CSV",
+  "version": "1.0.0",
+  "description": "選択フォルダ内の discogs.com URL からレコード情報を取得してCSV出力（APIのみ・トークン不要）",
+  "permissions": ["bookmarks", "downloads"],
+  "host_permissions": ["https://*.discogs.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Export Discogs Bookmarks"
+  }
+}
